@@ -1,7 +1,7 @@
 msgpack5&nbsp;&nbsp;[![Build Status](https://travis-ci.org/mcollina/msgpack5.png)](https://travis-ci.org/mcollina/msgpack5)
 ========
 
-A msgpack v5 implementation for node.js and the browser, with extension point support.
+A zeronet compatible msgpack v5 implementation for node.js and the browser, with extension point support.
 
 Install
 -------
@@ -10,6 +10,9 @@ Install
 npm install msgpack5 --save
 ```
 
+ZeroNet
+-------
+In order to enable ZeroNet compatibilty the strings are decoded as binary instead of utf8
 
 Usage
 -----

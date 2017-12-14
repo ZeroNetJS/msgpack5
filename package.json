@@ -1,7 +1,7 @@
 {
-  "name": "msgpack5",
+  "name": "zeronet-msgpack",
   "version": "3.6.0",
-  "description": "A msgpack v5 implementation for node.js and the browser, with extension points",
+  "description": "A zeronet compatible msgpack v5 implementation for node.js and the browser, with extension points",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test/* | faucet",
@@ -15,7 +15,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mcollina/msgpack5.git"
+    "url": "git://github.com/ZeroNetJS/zeronet-msgpack.git"
   },
   "keywords": [
     "msgpack",
@@ -27,9 +27,9 @@
   "author": "Matteo collina <hello@matteocollina.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mcollina/msgpack5/issues"
+    "url": "https://github.com/ZeroNetJS/zeronet-msgpack/issues"
   },
-  "homepage": "https://github.com/mcollina/msgpack5",
+  "homepage": "https://github.com/ZeroNetJS/zeronet-msgpack",
   "devDependencies": {
     "browserify": "^14.0.0",
     "faucet": "0.0.1",
